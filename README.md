@@ -2,7 +2,7 @@
 ## General information
 This program allows you to send weather data downloaded from OpenWeatherMap to a mini server via UDP. In your code, you need to set variables:<br>
 `udp_ip` as the minserver ip address<br>
-`api_key` as the key you will get after registration on [OpenWeatherMap](openweathermap.org)<br>
+`api_key` as the key you will get after registration on [OpenWeatherMap](https://openweathermap.org)<br>
 `city_name` as the name of the city you want download the weather
 
 In the "Loxone Config" application, click "Virtual Inputs" and then "Virtual UDP input". In the "Sender address" settings enter the IP address of the device on which you will run the script, and in "UDP receive port" enter the same port as in the `udp_port`.
@@ -20,7 +20,7 @@ w_hmd | Current humidity
 
 ## Author information
 The creator of the script is Dominik Krzywański.<br>
-Creator's website: [WolfRor](WolfRor.iwhy.me)
+Creator's website: [WolfRor](http://WolfRor.iwhy.me)
 
 <hr>
 
@@ -28,7 +28,7 @@ Creator's website: [WolfRor](WolfRor.iwhy.me)
 ## Informacje ogólne
 Ten program umożliwia wysyłanie danych pogodowych pobranych z OpenWeatherMap do mini serwera za pomocą UDP. W kodzie musisz ustawić zmienne:<br>
 `udp_ip` jako adres ip miniserwera<br>
-`api_key` jako klucz który dostaniesz po rejestracji na [OpenWeatherMap](openweathermap.org)<br> 
+`api_key` jako klucz który dostaniesz po rejestracji na [OpenWeatherMap](https://openweathermap.org)<br> 
 `city_name` jako nazwa miasta którego chesz pobrać pogodę
 
 W aplikacji "Loxone Config" należy kliknąć "Wejścia wirtualne", a następnie "Wirtualne wejścia UDP". W ustawieniach w "Adres nadawcy" wpisz adres ip urządzenia na którym uruchomisz skrypt, a w "Port odbiorczy UDP" wpisz ten sam port co w zmiennej `udp_port`
@@ -46,4 +46,4 @@ w_hmd | Obecna wilgotność powietrza
 
 ## Informacje o autorze
 Twórcą skryptu jest Dominik Krzywański. <br>
-Witryna twórcy: [WolfRor](WolfRor.iwhy.me)
+Witryna twórcy: [WolfRor](http://WolfRor.iwhy.me)
